@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <!-- Animaciones CSS CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Janeth Cortes | Portafolio Web</title>
+</head>
+<body>
+    <!-- Barra de navegacion -->
+     <nav>
+        <h1>Janeth Cortes</h1>
+        <ul>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#skills">Skills</a></li>
+            <li><a class="nav-link" href="#projects">Projects</a></li>
+            <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+        <button class="burguer-menu" id="burguer-menu"> 
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        </button>
+     </nav>
+
+     <!-- Seccion Hero -->
+      <section class="hero" id="about">
+        <img src="images/FotoPerfil.jpg" alt="Foto Janeth Cortes" class="hero-img" loading="lazy">
+          <div class="bio animate__animated animate__shakeX">
+            <h1 class="bio-title">About me</h1>
+            <p class="bio-text">Hola, bienvenido! Soy Janeth Cortes Ing en sistemas computacionales, con certificacion fullstack en la universidad Tecmilenio, con una maestria en gestion de proyectos en curso, ademas de una carrera tecnica en contabilidad financiera, y certificada en el BootCamp Desarrollo Web de Tecnolochicas México, una iniciativa de Fundación Televisa ✌</p>
+          </div>
+      </section>
+
+      <!--about me-->
+      <section class="more-about">
+          <h2>More About Me</h2>
+          <p>Apasionada por la tecnologia y el arte busca impulsar y su conocimiento a otro nivel fucionando estas 2 convirtiendolo en algo esepcional</p>
+          <p>ademas fucionar caracteristicas como: inovacion, espiritualidad y arte es igual a Janeth </p>
+          <p>el diseño me llevo a colocarme como una de las mejores tatuadoras de mi zona</p>
+      </section>
+
+      <!--Skills -->
+      <section class="skills" id="skills">
+        <h2 class="skill-header">My top Skills</h2>
+          <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+              <img src="images/icons8-html-5.svg" alt="html5" loading="lazy" class="icon icon-card">
+              <img src="images/icons8-css3.svg" alt="CSS3" loading="lazy" class="icon icon-card">
+              <img src="images/icons8-javascript.svg" alt="JavaScript" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+              <img src="images/icons8-bootstrap.svg" alt="Bootstrap" loading="lazy" class="icon icon-card">
+              <img src="images/icons8-github-50.svg" alt="GitHub" loading="lazy" class="icon icon-card">
+              <img src="images/icons8-react-native.svg" alt="React" loading="lazy" class="icon icon-card">
+            </div>
+          </div>
+      </section>
+      <!--Proyectos-->
+      <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="projects-container">
+          <div class="project-container project-card">
+            <img src="images/project_1.jpg" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Pinterest Clon</h3>
+            <p class="project-details">Este proyecto es un clon de la interfaz de incio de Pinterst, creado puramente con HTML5 y CSS3.</p>
+            <a href="#" target="_blank" class="project-link">check it out!</a>
+          </div>
+          <div class="project-container project-card">
+            <img src="images/wippng.png" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Project 2</h3>
+            <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+          </div>
+          <div class="project-container project-card">
+            <img src="images/wippng.png" alt="" loading="lazy" class="project-pic">
+            <h3 class="project-title">Project 3</h3>
+            <p class="project-details">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <a href="#" target="_blank" class="project-link">Stay tuned!</a>
+          </div>
+        </div>
+      </section>
+      <div class="socials">
+        <a href="#" target="_blank"><img src="icons/icons8-facebook-64.png" alt="Facebook" loading="lazy" class="socicon"></a>
+
+        <a href="#" target="_blank"><img src="icons/icons8-whatsapp-64.png" alt="Whatsap" loading="lazy" class="socicon"></a>
+
+        <a href="#" target="_blank"><img src="icons/icons8-instagram-64.png" alt="Instagram" loading="lazy" class="socicon"></a>
+      </div>
+<!--scrol bottom-->
+    <i class="scroll-up" id="scroll-up">
+      <img src="icons/flecha.gif" alt="socicon up-arrow">
+    </i>
+<!--foorer-->
+      <footer>
+        <p> Build with {🩷} by Janeth Cortes 💫  </p>
+      </footer>
+<!--js-->
+<script src="app/app.js"></script>
+
+          <!-- Ion icons scripts -->
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
